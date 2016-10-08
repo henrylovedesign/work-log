@@ -1,0 +1,3 @@
+sudo adduser test
+
+chmod u+w /etc/sudoers

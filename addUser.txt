@@ -6,5 +6,7 @@ chmod u+w /etc/sudoers
 root    ALL=(ALL:ALL)
 henry    ALL=(ALL:ALL) ALL
 
+sudo:x:27:lilx,huangzhi,tianli,qianghuagao,gqzhao,henry
+
 chmod u-w /etc/sudoers
 
