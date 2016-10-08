@@ -1,0 +1,10 @@
+sudo adduser test
+
+chmod u+w /etc/sudoers
+
+# User privilege specification
+root    ALL=(ALL:ALL)
+henry    ALL=(ALL:ALL) ALL
+
+chmod u-w /etc/sudoers
+
